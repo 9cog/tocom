@@ -1,0 +1,36 @@
+{
+  "name": "tocom",
+  "version": "1.0.0",
+  "description": "This repository contains a comprehensive analysis of the **Total Commander for Android** application (version 1253), including formal specifications, technical documentation, and architectural diagrams.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "test:watch": "jest --watch",
+    "lint": "eslint src --ext .ts",
+    "clean": "rm -rf dist coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9cog/tocom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/9cog/tocom/issues"
+  },
+  "homepage": "https://github.com/9cog/tocom#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.6.0",
+    "@typescript-eslint/eslint-plugin": "^8.58.1",
+    "@typescript-eslint/parser": "^8.58.1",
+    "eslint": "^10.2.0",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.9",
+    "typescript": "^6.0.2"
+  }
+}
